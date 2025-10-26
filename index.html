@@ -1,1 +1,190 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Muhammad Afzal – Software Engineer</title>
+  <style>
+    :root {
+      --primary: #2563eb;
+      --bg: #f8fafc;
+      --text: #1e293b;
+      --muted: #64748b;
+      --border: #e2e8f0;
+    }
+    body {
+      font-family: "Segoe UI", Roboto, Arial, sans-serif;
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+    header {
+      background: white;
+      border-bottom: 1px solid var(--border);
+      text-align: center;
+      padding: 2rem 1rem;
+    }
+    header h1 {
+      font-size: 2rem;
+      color: var(--primary);
+      margin: 0.3rem 0;
+    }
+    header p {
+      margin: 0.3rem 0;
+    }
+    header a {
+      color: var(--primary);
+      text-decoration: none;
+    }
+    main {
+      max-width: 900px;
+      margin: auto;
+      padding: 2rem 1rem;
+      background: white;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+    }
+    section {
+      margin-top: 2rem;
+    }
+    section h2 {
+      color: var(--primary);
+      border-bottom: 2px solid var(--border);
+      padding-bottom: 0.3rem;
+      margin-bottom: 0.8rem;
+      font-size: 1.3rem;
+    }
+    ul {
+      margin: 0;
+      padding-left: 1.2rem;
+    }
+    li {
+      margin-bottom: 0.4rem;
+    }
+    .exp-item, .proj-item {
+      margin-bottom: 1.2rem;
+    }
+    .exp-item h3, .proj-item h3 {
+      margin: 0;
+      font-size: 1.1rem;
+      color: var(--text);
+    }
+    .exp-item p, .proj-item p {
+      margin: 0.3rem 0;
+      color: var(--muted);
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      color: var(--muted);
+      font-size: 0.9rem;
+    }
+    @media (max-width: 600px) {
+      header h1 { font-size: 1.6rem; }
+      main { padding: 1.2rem; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Muhammad Afzal</h1>
+    <p><strong>Software Engineer | MERN & NestJS | React, Node.js, GraphQL</strong></p>
+    <p>📍 R3 - Johar Town, Lahore, Pakistan | 📞 +92 3457066680</p>
+    <p>
+      <a href="mailto:muhammad.afzal.110190@gmail.com">muhammad.afzal.110190@gmail.com</a> |
+      <a href="https://linkedin.com/in/muhammad-afzal-754966261">LinkedIn</a> |
+      <a href="https://github.com/muhammadfzal">GitHub</a>
+    </p>
+  </header>
+
+  <main>
+    <section id="summary">
+      <h2>Profile Summary</h2>
+      <p>
+        I am a highly motivated and competitive Software Engineer with extensive experience in
+        multiple technology stacks such as ReactJS, NextJS, NodeJS, ExpressJS, and NestJS using SQL, NoSQL,
+        and Graph Databases along with cloud services such as AWS.
+      </p>
+    </section>
+
+    <section id="skills">
+      <h2>Skills</h2>
+      <ul>
+        <li><strong>Languages & Frameworks:</strong> JavaScript, TypeScript, PHP, Vue, C++, React, NextJS, NestJS, Laravel</li>
+        <li><strong>Databases:</strong> MySQL, MongoDB, PostgreSQL</li>
+        <li><strong>Dev Tools:</strong> Postman, Swagger, GitHub, Docker</li>
+        <li><strong>Cloud & Deployment:</strong> AWS (EC2, S3, Lambda), Firebase, Netlify, Vercel</li>
+        <li><strong>Other:</strong> WordPress, Shopify, WooCommerce (Custom Plugin), Jira, Asana</li>
+      </ul>
+    </section>
+
+    <section id="experience">
+      <h2>Work Experience</h2>
+
+      <div class="exp-item">
+        <h3>Software Engineer – KalPay, LUMS Lahore</h3>
+        <p><em>March 2022 – Present</em></p>
+        <ul>
+          <li>Developed full-stack applications with React, NextJS, and NestJS.</li>
+          <li>Integrated RESTful and GraphQL APIs with PostgreSQL, MySQL, and MongoDB.</li>
+          <li>Integrated PayFast and Stripe for secure online payments; built notification system using SendGrid and Nodemailer.</li>
+          <li>Implemented authentication, scheduling, and real-time chat with Socket.IO.</li>
+          <li>Developed Taleem Loan Portal with Excel-to-DB sync and financial data automation.</li>
+          <li>Built a Hiring Management System (ERD to production) with RBAC and GraphQL.</li>
+        </ul>
+      </div>
+
+      <div class="exp-item">
+        <h3>Associate Backend Engineer – Vieappsstudio, Lahore</h3>
+        <p><em>Oct 2021 – Feb 2022</em></p>
+        <ul>
+          <li>Developed backend apps using NodeJS and ExpressJS; managed MongoDB and MySQL.</li>
+          <li>Customized and developed WordPress websites.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="projects">
+      <h2>Selected Projects</h2>
+
+      <div class="proj-item">
+        <h3>Mayfair Platform</h3>
+        <p><strong>Tech:</strong> Next.js, NestJS, TypeScript, PostgreSQL, PayFast</p>
+        <p>Built order creation flow, customer modules, and payment integration using Stripe and PayFast.</p>
+      </div>
+
+      <div class="proj-item">
+        <h3>Hiring Management System</h3>
+        <p><strong>Tech:</strong> Next.js, NestJS, TypeScript, PostgreSQL, PayFast</p>
+        <p>Developed RBAC-based recruitment platform with CV uploads, GraphQL APIs, and real-time chat.</p>
+      </div>
+
+      <div class="proj-item">
+        <h3>Taleem Work-space</h3>
+        <p><strong>Tech:</strong> Node.js, React.js, TypeScript, PostgreSQL, Firebase</p>
+        <p>Built dynamic forms, DB and Excel sync, optimized workflows for loan applications.</p>
+      </div>
+    </section>
+
+    <section id="education">
+      <h2>Education</h2>
+      <p><strong>Bachelor of Science in Computer Science</strong></p>
+    </section>
+
+    <section id="training">
+      <h2>Technical Training</h2>
+      <p><strong>Technical Trainer at TechTycone Academy (Online)</strong></p>
+      <ul>
+        <li>Taught programming fundamentals and full MERN stack (MongoDB, Express.js, React.js, Node.js).</li>
+        <li>Delivered practical, project-based training sessions.</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    © 2025 Muhammad Afzal | Built with ❤️ using HTML & CSS
+  </footer>
+</body>
+</html>
